@@ -1,0 +1,1358 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑','Microsoft YaHei','黑体', Helvetica,Arial;
+	font-size: 12px;
+	color: #888;
+	background: #fff;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1486373477_018275.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1486373477_018275.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1486373477_018275.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1486373477_018275.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1486373477_018275.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+                    
+                    
+                    
+                    
+.iconfont{
+	font-family: "iconfont";
+	font-size: 12px;
+	font-style: normal;
+}
+
+ul, li {
+	list-style: none;
+}
+
+
+
+a, a:link {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f01e00;
+}
+
+a:link {
+	color: #333;
+}
+
+.head {
+	background: #fff;
+}
+
+.head a {
+	color: #999999;
+}
+
+.head a:hover {
+	color: #f01e00;
+}
+
+.center {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.head-links {
+	height: 30px;
+	line-height: 30px;
+	background: #f7f7f7;
+}
+
+.head-link, .head-link li {
+	float: left;
+}
+
+.head-link li {
+	margin-left: 20px;
+}
+
+.selectRegion {
+	position: relative;
+	padding-right: 10px;
+}
+
+.selectRegionList {	
+	width: 115px;
+	padding-left: 10px;
+	right: -1px;
+}
+
+.selectionBox {
+	position: absolute;
+	top: 0;
+	display: none;
+	background: #FFF;
+	border: 1px solid #dfdfdf;
+	z-index: 999;
+}
+
+#arrowDown, #arrowUp{
+	margin-left: 10px;
+	width: 11px;
+	height: 8px;
+}
+
+.selectRegionList img {
+	width: 15px;
+	height: 10px;
+	margin-right: 10px;
+}
+
+.link-right {
+	float: right;
+}
+
+ .link-help, .link-ecology {
+	padding-right: 5px;
+	position: relative;
+}
+
+.helpLink, .ecologyList {
+	box-sizing: border-box;
+	padding-left: 10px;
+	padding-right: 5px;
+	width: 90px;
+	left: -10px;
+}
+
+.loginMess, .login, .regist {
+	padding: 0 10px;
+	cursor: pointer;
+}
+
+.head-main {
+	background: #FFF;
+	width: 1200px;
+	margin: 0 auto;
+	height: 108px;
+}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+	width: 470px;
+}
+
+.search {
+	float: left;
+	margin-right: 45px;
+	margin-top: 30px;
+}
+
+.searchInput {
+	box-sizing: border-box;
+	width: 405px;
+	height: 35px;
+	border: 1px solid #C60000;
+	padding: 5px;
+	float: left;
+}
+
+.searchBtn {
+	width: 90px;
+	height: 35px;
+	background: #C60000;
+	color: #fff;
+	border: none;
+	float: left;
+}
+
+.searchHis a {
+	padding-left: 10px;
+	line-height: 28px;
+}
+
+.cartBtn {
+	box-sizing: border-box;
+	float: left;
+	width: 140px;
+	height: 35px;
+	border: 1px solid #DFDFDF;
+	margin-top: 30px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+	line-height: 35px;
+}
+
+.cartBtn a {
+	display: block;
+	height: 35px;
+	float: left;
+	padding-left: 32px;
+}
+
+.cartBtn span{
+	display: inline-block;
+	float: right;
+}
+
+.cartcont {
+	display: inline-block;
+	background-image: url("http://img1.hdletv.com/file/20160405/default/6507963319033295");
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+	width: 30px;
+	height: 30px;
+}
+
+.cartBtn:hover {
+	border-color: #C60000;
+}
+
+.main-head {
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 14px;
+	position: relative;
+	clear: both;
+}
+
+.main-nav-btn {
+	width: 130px;
+	height: 35px;
+	background: #555;
+	color: #fff;
+	text-align: center;
+	line-height: 35px;
+}
+
+.main-nav-list {
+	position: absolute;
+	top: 35px;
+	background: #efefef;
+	color: #7d7d7d;
+	width: 130px;
+	text-align: center;
+	padding: 13px 0;
+}
+
+.main-nav-list li {
+	height: 30px;
+	line-height: 30px;
+	padding: 5.5px 0;
+}
+
+.nav-side {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	left: 130px;
+	background: #FFF;
+	width: 750px;
+	height: 400px;
+	z-index: 666;
+	padding-top: 10px;
+	border: 2px solid #efefef;
+	display: none;
+}
+
+.lihover {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	left: 130px;
+	background: #FFF;
+	width: 750px;
+	height: 400px;
+	z-index: 666;
+	padding-top: 10px;
+	border: 2px solid #efefef;
+	display: block;
+}
+
+.nav-list {
+	padding-left: 30px;
+	font-size: 12px;
+}
+
+.nav-list h4 {
+	font-size: 14px;
+	border-bottom:  2px solid #e8e8e8;
+	padding-bottom: 15px;
+}
+
+.superTV-list {
+	float: left;
+	width: 15%;
+	margin-right: 25px;
+}
+
+.superTV-list li {
+	margin-top: 25px;
+	list-style: disc inside;
+}
+
+.nav-ad img{
+	float: right;
+	width: 180px;
+}
+
+.superPhone-list {
+	float: left;
+	width: 25%;
+	margin-right: 25px;
+	
+}
+
+.superPhone-list img {
+	width: 35px;
+	height: 35px;
+}
+
+.superPhone-list li {
+	margin: 20px 0;
+}
+
+.main-head-left {
+	float: left;
+	width: 132px;
+	margin-right: 30px;
+}
+
+.main-head-middle {
+	float: left;
+	width: 740px;
+}
+
+.main-head-middle li {
+	float: left;
+	margin-right: 25px;
+	font-size: 16px;
+	line-height: 35px;
+}
+
+.main-head-right {
+	float: right;
+	width: 298px;
+}
+
+.main-head-right li {
+	float: left;
+	line-height: 35px;
+	margin-right: 20px;
+}
+
+.p-index {
+	background: #f7f7f8;
+}
+
+.p-main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.p-main-01 {
+	width: 880px;
+	float: left;
+}
+
+.p-main-ppt {
+	width: 740px;
+	float: right;
+}
+
+.p-main-piec {
+	width: 740px;
+    height: 395px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pptpic img {
+	width: 740px;
+	position: absolute;
+/*	display: none;*/
+	opacity: 0;
+}
+
+.pptword {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: inherit;
+	height: 50px;
+	background: rgba(239,238,239,0.15);
+	z-index: 666;
+}
+
+.pptword li {
+	box-sizing: border-box;
+	float: left;
+	width: 16.667%;
+	height: 50px;
+	text-align: center;
+	padding: 10px 15px 0;
+	position: relative;
+}
+
+.pptword a {
+	font-size: 14px;
+	line-height: 15px;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.pptword .on {
+	background: rgba(239, 238, 239, 0.3);
+}
+
+.pptword li:after {
+	content: "";
+    display: block;
+    position: absolute;
+    z-index: 2;
+    left: -1px;
+    top: 15px;
+    width: 1px;
+    font-size: 1;
+    height: 20px;
+    background: #efefef;
+    background: rgba(239, 239, 239, 0.3);
+}
+
+.p-main-down {
+	width: 890px;
+	margin-left: -10px;
+	height: 152px;
+	overflow: hidden;
+	clear: both;
+}
+
+.p-main-down li {
+	float: left;
+	width: 212px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.p-main-down img {
+	width: 212px;
+	height: 142px;
+	vertical-align: top;
+}
+
+.p-main-02 {
+	float: right;
+	width: 310px;
+}
+
+.p-main-02p {
+	height: 545px;
+	background: #fff;
+}
+
+.le-box-hd01 {
+	border-top: 1px solid #efefef;
+	overflow: hidden;
+}
+
+.le-box-hd01 h3 {
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 35px;
+	height: 38px;
+	margin-top: 10px;
+	padding-left: 10px;
+	overflow: hidden;
+}
+
+.le-box-hd01 h3 img {
+	margin-top: 5px;
+}
+
+.le-box-more {
+	float: right;
+	margin: 7px 12px 0 0;
+	line-height: 38px;
+}
+
+.le-box-bd01 {
+	padding: 0 10px;
+}
+
+.le-box-bd01.bd1 {
+	height: 247px;
+}
+
+.box-pictext {
+	margin-bottom: 10px;
+}
+
+.pictext-pic {
+	float: left;
+	padding-top: 7px;
+}
+
+.pictext-text {
+	margin-left: 134px;
+	overflow: hidden;
+	padding-top: 7px;
+}
+
+.text-t {
+	line-height: 22px;
+    height: 44px;
+    margin-bottom: 13px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 13px;
+}
+
+.text-note {
+	line-height: 13px;
+	color: #999;
+}
+
+.le-box-text {
+	margin-top: 20px;
+}
+
+.box-textL {
+	line-height: 25px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.an-left{
+	float: left;
+	line-height: 25px;
+	width: 18.3em;
+    height: 26px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.an-time {
+	line-height: 25px;
+}
+
+.box-service {
+	margin-bottom: 14px;
+}
+
+.le-box-bd01.bd3 li{
+	box-sizing: border-box;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	padding: 0 20px;
+}
+
+.icon {
+	display: block;
+	margin: 4px auto 8px;
+}
+
+.icon-service {
+	background-image: url(http://image3.lecloud.com/lemallus/20161230-1eff01c1-f104-4bd3-a2ea-6e7aecd0012e.png);
+	width: 25px;
+    height: 25px;
+}
+
+.icon.icon-movie {
+    background-position: -92px -126px;
+}
+
+.icon-sport {
+	background-position: -127px -126px;
+}
+
+.icon-game {
+	background-position: -50px -30px;
+}
+
+.jnqy {
+	padding: 7px 10px 0;
+}
+
+.jnqy span{
+	color: #53d7af;
+}
+
+.jnqy a{
+	margin-left: 20px;
+	color: #d16b29;
+    text-decoration: underline;
+}
+
+.zoom-01 {
+	background: #f7f7f8;
+}
+
+.zoom-01-index {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.zoom-title {
+	padding-top: 25px;
+	font-size: 20px;
+	color: #000;
+	font-weight: normal;
+	height: 35px;
+}
+
+.zoom-home.icon-italic {
+	color: #ff7800;
+}
+
+.zoom-01-left {
+	overflow: hidden;
+	width: 890px;
+	float: left;
+}
+
+.zoom-01-left ul {
+	width: 890px;
+	margin-left: -10px;
+}
+
+.zoom-01-left a {
+	display: block;
+	height: inherit;
+}
+
+.zoom-01-left li {
+	float: left;
+	background: #fff;	
+	margin-left: 10px;
+}
+
+.leftup li {
+	height: 263px;
+}
+
+.li1, .li3, .li4 {
+	width: 188px;
+}
+
+.li-pic {
+	height: 178px;
+	text-align: center;
+}
+
+.li-pic img {
+	height: 120px;
+	margin-top: 29px;
+}
+
+.li-text {
+	text-align: center;
+	line-height: 1.5;
+}
+
+.li-explain {
+	color: #888888;
+}
+
+.li2 {
+	position: relative;
+	overflow: hidden;
+	width: 286px;
+}
+
+#bigit {
+	display: inline-block;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: 8px;
+	top: 8px;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.5);
+	background-image: url(http://img1.hdletv.com/file/20161017/default/2788681071084662);
+	background-position: -130px -79px;
+    background-repeat: no-repeat;
+}
+
+#bigit:hover {
+	background-position: -165px -79px;
+}
+
+.li2-pic {
+	text-align: center;
+}
+
+.li2-pic img {
+	width: 100%;
+}
+
+.li2-text {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 32px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 32px;
+}
+
+.li2:hover .li2-name{
+	color: #f01e00;
+}
+
+.li1:hover, .li2:hover, .li3:hover, .li4:hover img {
+	opacity: 0.85;
+}
+
+.leftdown {
+	margin-top: 10px;
+}
+
+.leftdown .li-pic {
+	height: 106px;
+}
+
+.leftdown .li-pic img {
+	height: 80px;
+	margin-top: 13px;
+}
+
+.zoom-01-right {
+	float: right;
+	width: 310px;
+	background: #fff;
+	height: 415px;
+}
+
+.zoom-01-right .le-box-bd01 {
+	padding-bottom: 10px;
+}
+
+.judge {
+	
+}
+
+.judge-img {
+	float: left;
+	padding-top: 8px;
+	width: 58px;
+	vertical-align: middle;
+}
+
+.judge-img img {
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	vertical-align: top;
+}
+
+.judge-text {
+	box-sizing: border-box;
+	float: right;
+	border-radius: 3px;
+    background: #f9f9f9;
+    position: relative;
+    margin-top: 10px;
+    width: 220px;
+    padding: 3px 12px 2px;
+}
+
+.judge-text a {
+    line-height: 20px;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+.judge-text:before {
+	content: "";
+	display: block;
+	position: absolute;
+	border: 6px solid #f9f9f9;
+	height: 0;
+	width: 0;
+	border-color: transparent #f9f9f9 transparent transparent;
+	left: -12px;
+	top: 35%;
+}
+
+.zoom-mobile {
+	padding-bottom: 40px;
+}
+
+.zoom-intelligence {
+	background: #fff;
+
+}
+
+.zoom-intelligence .li1, .zoom-intelligence .li2, .zoom-intelligence .li3, .zoom-intelligence .li4 {
+	box-sizing: border-box;
+	border: 1px solid #efefef;
+}
+
+.zoom-intelligence .box-border {
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+}
+
+.zoom-intelligence .box-border.bd3 {
+	border-bottom: 1px solid #efefef;
+	padding-bottom: 4px;
+}
+
+.zoom-finance {
+	background: #fff;
+}
+
+.finance-list li{
+	width: 212px;
+}
+
+.finance-list img {
+	width: 212px;
+}
+
+.zoom-finance .zoom-01-right {
+	box-sizing: border-box;
+	border: 1px solid #efefef;
+	height: 245px;
+}
+
+.zoom-finance .le-box-hd01 {
+	border: none;
+}
+
+.zoom-ip {
+	background: #fff;
+}
+
+.zoom-ip .zoom-title {
+	background: #fff;
+}
+
+.zoom-02-index {
+	background: #000000;
+	width: 1200px;
+	margin: 40px auto;
+}
+
+.zoom-ip .zoom-02-left {
+	width: 880px;
+	height: 440px;
+	float: left;
+}
+
+.ip-animation {
+	width: 838px;
+    margin: 38px auto 42px;
+    position: relative;
+	overflow: hidden;
+    height: 195px;
+}
+
+.ip-listpic {
+	width: 741px;
+    height: 196px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.ip-box {
+	display: table;
+	margin: auto;
+}
+
+.ip-box ul {
+	display: table-row;
+}
+
+.ip-box li {
+	display: table-cell;
+	vertical-align: middle;
+	height: 195px;
+	margin: 0 10px;
+}
+
+.pic {
+	margin-right: 15px;
+}
+
+.ipic01 img, .ipic03 img{
+	box-sizing: border-box;
+	width: 208px;
+	border: 1px solid #808080;
+}
+
+.pre, .next {
+	position: absolute;
+    top: 70px;
+    width: 32px;
+    height: 48px;
+    line-height: 48px;
+    text-align: left;
+    overflow: hidden;
+    color: #666666;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pre {
+	left: 0;
+}
+
+.next {
+	right: 0;
+}
+
+.pre:hover {
+	background: rgba(102,102,102,0.5);
+}
+
+.next:hover {
+	background: rgba(102,102,102,0.5);
+}
+
+.btnleft.iconfont, .btnright.iconfont {
+	color: #666;
+	font-size: 28px;
+}
+
+ .btnright.iconfont {
+ 	color: #666;
+	font-size: 28px;
+	margin-left: 5px;
+ }
+
+.ip-ad {
+	height: 152px;
+	overflow: hidden;
+	margin-left: 15px;
+	position: relative;
+}
+
+.ip-ad ul {
+	overflow: hidden;
+/*    opacity: 0;*/
+    z-index: 1;
+    position: absolute;
+	top: 0;
+	opacity: 0;
+}
+
+.ip-ad .show {
+	display: block;
+    height: 152px;
+    opacity: 1;
+    z-index: 2;
+}
+
+.ip-ad li {
+	float: left;
+	width: 170px;
+	height: 148px;
+	text-align: center;
+}
+
+.ip-ad img {
+	width: 110px;
+	height: 110px;
+	margin: 0 30px;
+}
+
+.ip-ad li:hover img {
+	opacity: 0.85;
+}
+
+.ip-ad-name {
+	display: block;
+	line-height: 38px;
+	color: #999;
+}
+
+.ip-ad li:hover .ip-ad-name {
+	color: #fff;
+}
+
+.zoom-02-right {
+	float: right;
+	width: 310px;
+	padding-top: 30px;
+}
+
+.zoom-02-right a {
+	color: rgba(204,204,204,0.7);
+}
+
+.zoom-02-right a:hover {
+	color: rgba(204,204,204,1);
+}
+
+.zoom-02-right .le-box-hd01 {
+	border: none;
+}
+
+.zoom-02-right h3 {
+	font-size: 16px;
+}
+
+.foot {
+	background: #f2f2f2;
+}
+
+.foot-service-index {
+	padding: 20px 0;
+    margin-bottom: 41px;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.foot-service {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.foot-service ul {
+	margin-left: 75px;
+}
+
+.foot-service li {
+	float: left;
+	width: 270px;
+	font-size: 16px;
+}
+
+.foot-service .icon-service {
+	display: inline-block;
+	float: left;
+    border: solid #666 1px;
+    border-radius: 42%;
+    margin-right: 16px;
+    width: 36px;
+    height: 36px;
+}
+
+.ser01 .icon-service {
+	background-position: 0px -126px;
+}
+
+.ser01 a:hover {
+	color: #333;
+}
+
+.ser02 .icon-service {
+	background-position: -136px -46px;
+}
+
+.ser03 .icon-service {
+	background-position: -46px -126px;
+}
+
+.ser04 .icon-service {
+	background-position: -46px -80px;
+}
+
+.foot-service span {
+	float: left;
+	display: inline-block;
+	line-height: 38px;
+}
+
+.foot-lis {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.foot-lis-li {
+	margin-left: 75px;
+	width: 815px;
+	float: left;
+}
+
+.cols {
+	float: left;
+	width: 160px;
+}
+
+.cols h4 {
+	line-height: 30px;
+	color: #000;
+}
+
+.cols li {
+	line-height: 21px;
+}
+
+.foot-lis-ser {
+	width: 310px;
+	float: right;
+}
+
+.foot-lis-ser {
+	color: #F01E00;
+	margin-right: 130px;
+	width: 145px;
+}
+
+.pn {
+	font-size: 20px;
+}
+
+.foot-lis-ser span {
+	display: block;
+}
+
+.phone24 {
+	margin: 20px 0;
+}
+
+.foot-links {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.foot-links-index {
+	width: 1050px;
+	margin: 40px auto 0;
+}
+
+.foot-links h4 {
+	margin-bottom: 10px;
+}
+
+.frid-links li{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.foot-copyright {
+	color: #999;
+	border-top: solid 1px #e3e3e3;
+    line-height: 21px;
+    padding-top: 7px;
+    margin-top: 7px;
+    padding-bottom: 7px;
+	width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/*.left-nav {
+	position: absolute;
+	top: 778px;
+}*/
+
+.left-nav li{
+	width: 40px;
+	height: 40px;
+	background: #ebebeb;
+	margin-top: 2px;
+	text-align: center;
+}
+
+.left-nav a {
+	display: block;
+}
+
+.left-nav a:hover {
+	color: #fff;
+}
+
+.left-nav span {
+	display: block;
+	padding-top: 3px;
+}
+
+.right-nav {
+	position: fixed;
+	width: 35px;
+	z-index: 999;
+	bottom: 140px;
+	right: 0;
+	background-color: #EFEFEF;
+	border-radius: 17px;
+	padding: 17px 0;
+}
+
+.rnl {
+	position: relative;
+	cursor: pointer;
+}
+
+.rsicon {
+	width: 31px;
+    height: 31px;
+    border: 1px solid #efefef;
+    border-radius: 16px;
+    margin: 1px;
+    background-image: url("http://img1.hdletv.com/file/20160405/default/6507963319033295");
+    background-repeat: no-repeat;
+}
+
+.right-cart {
+	background-position: 1px 1px;
+}
+
+.right-download {
+	background-position: -33px 1px;
+}
+
+.right-survey {
+	background-position: -68px 2px;
+}
+
+.right-share {
+	background-position: -104px 1px;
+}
+
+.right-find {
+	background-position: -138px 1px;
+}
+
+.right-kefu {
+	background-position: -173px 1px;
+}
+
+.expln {
+	display: none;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.circul {
+	top: 0;
+	right: 0;
+	width: 31px;
+	height: 31px;
+	border-radius: 50%;
+	border: 1px solid #888;
+	background: #FFF;
+	z-index: -11;
+}
+
+.right-text {
+	top: 0;
+	right: 52px;
+	background: #EFEFEF;
+	border-radius: 3px;
+	padding: 8px;
+	text-align: center;
+	color: #000;
+}
+
+.right-cart-hid .right-text {
+	width: 40px;
+}
+
+.right-download-hid .right-text {
+	top: -35px;
+}
+
+.right-survey-hid .right-text {
+	width: 80px;
+}
+
+.right-share-hid .right-text {
+	width: 190px;
+}
+
+.right-find-hid .right-text {
+	width: 40px;
+}
+
+.right-kefu-hid .right-text {
+	width: 30px;
+}
+
+.arrow {
+    border-left: 12px solid #efefef;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    left: -17px;
+    top: 10px;
+}
+
+.right-share-hid li{
+	float: right;
+}
+
+.shareicon {
+	display: block;
+    width: 32px;
+    line-height: 32px;
+    height: 32px;
+    background-image: url(../img/allcont.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin: 6px 6px 6px 0;
+    text-indent: -100em;
+    overflow: hidden;
+    color: #3a8ceb;
+}
+
+.sina {
+	background-position: 0 -260px;
+}
+
+.zone {
+	background-position: 0 -2652px;
+}
+
+.wechat {
+	background-position: 0 -1612px;
+}
+
+.qq {
+	background-position: 0 -52px;
+}
+
+.tecent {
+	background-position: 0 -104px;
+}
+
+.backTop {
+	position: absolute;
+	bottom: -70px;
+	width: 31px;
+	height: 31px;
+	border-radius: 50%;
+	background: #EFEFEF;
+	right: 0;
+	background-image: url("http://img1.hdletv.com/file/20160405/default/6507963319033295");
+    background-repeat: no-repeat;
+    background-position: -209px 1px;
+    z-index: 999;
+    cursor: pointer;
+    display: none;
+}
+
