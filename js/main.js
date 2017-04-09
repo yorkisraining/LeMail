@@ -227,7 +227,6 @@ window.onscroll = function() {
 	back.onclick = function() {
 		scroll(0,0);
 	}
-	console.log(scTop)
 	var leftNav = document.getElementsByClassName('left-nav')[0];
 	if(scTop > 480 ) {
 		leftNav.style.position = 'fixed';
@@ -243,3 +242,14 @@ window.onscroll = function() {
 	}
 	
 }
+
+function a() {
+	$('.lazy').lazyload({
+		effect: 'fadeIn',
+		failure_limit: 10,
+		threshold : 200,
+		skip_invisible: false
+	})
+}
+
+a();
