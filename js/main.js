@@ -9,7 +9,9 @@ window.onload = function() {
 	
 	rightSide();
 	
-	leftSide()
+	leftSide();
+	
+	adAni();
 	
 	var leftNav = document.getElementsByClassName('left-nav')[0];
 	leftNav.style.position = 'absolute';
@@ -253,3 +255,4 @@ function a() {
 }
 
 a();
+
